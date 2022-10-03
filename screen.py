@@ -17,7 +17,6 @@ while True:
     if sct_img.rgb != x:
         print(sct_img.rgb)  
         pyautogui.click() 
-        sleep(0.5)
     if (cv2.waitKey(1) & 0xFF) == ord('q'):
         cv2.destroyAllWindows()
         break
